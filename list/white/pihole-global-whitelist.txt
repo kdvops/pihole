@@ -1,0 +1,199 @@
+# =====================================================
+# PI-HOLE GLOBAL WHITELIST (CYBERDEFENSE SAFE)
+# Critical services / OS / Banking / Auth / Cloud
+# =====================================================
+
+# =========================
+# GOOGLE CORE SERVICES
+# =========================
+google.com
+googleapis.com
+gstatic.com
+googleusercontent.com
+clients4.google.com
+clients2.google.com
+fonts.googleapis.com
+fonts.gstatic.com
+accounts.google.com
+oauth2.googleapis.com
+firebase.googleapis.com
+firebaseinstallations.googleapis.com
+firebaseappcheck.googleapis.com
+fcm.googleapis.com
+
+# =========================
+# ANDROID CORE
+# =========================
+android.clients.google.com
+play.googleapis.com
+play.google.com
+dl.google.com
+update.googleapis.com
+
+# =========================
+# APPLE CORE SERVICES
+# =========================
+apple.com
+icloud.com
+mzstatic.com
+itunes.apple.com
+apps.apple.com
+xp.apple.com
+push.apple.com
+appldnld.apple.com
+gsp-ssl.ls.apple.com
+
+# =========================
+# MICROSOFT CORE / WINDOWS
+# =========================
+microsoft.com
+windowsupdate.com
+update.microsoft.com
+download.windowsupdate.com
+office.com
+office365.com
+live.com
+login.microsoftonline.com
+graph.microsoft.com
+aadcdn.msauth.net
+aadcdn.msftauth.net
+storeedgefd.dsx.mp.microsoft.com
+
+# =========================
+# AUTHENTICATION / IDENTITY
+# =========================
+auth0.com
+okta.com
+onelogin.com
+duosecurity.com
+login.live.com
+login.microsoft.com
+login.windows.net
+accounts.google.com
+id.apple.com
+
+# =========================
+# AMAZON / AWS CORE
+# =========================
+amazonaws.com
+aws.amazon.com
+cloudfront.net
+elasticbeanstalk.com
+elb.amazonaws.com
+s3.amazonaws.com
+
+# =========================
+# CLOUD PROVIDERS
+# =========================
+azure.com
+azureedge.net
+digitalocean.com
+linode.com
+oraclecloud.com
+cloudflare.com
+cloudflare-dns.com
+cloudflareinsights.com
+
+# =========================
+# CDN ESSENTIALS
+# =========================
+akamai.net
+akamaiedge.net
+akamaized.net
+fastly.net
+fastlydns.net
+cdn.jsdelivr.net
+unpkg.com
+cdnjs.cloudflare.com
+
+# =========================
+# PAYMENT / BANKING (GENERIC)
+# =========================
+visa.com
+mastercard.com
+paypal.com
+stripe.com
+adyen.com
+checkout.com
+worldpay.com
+squareup.com
+
+# =========================
+# EMAIL & COMMUNICATION
+# =========================
+gmail.com
+outlook.com
+hotmail.com
+yahoo.com
+protonmail.com
+mail.google.com
+smtp.gmail.com
+
+# =========================
+# SOCIAL (CORE ONLY – NO ADS)
+# =========================
+facebook.com
+instagram.com
+whatsapp.com
+twitter.com
+x.com
+linkedin.com
+telegram.org
+signal.org
+
+# =========================
+# DEV / CI / PACKAGE MANAGERS
+# =========================
+github.com
+raw.githubusercontent.com
+gitlab.com
+bitbucket.org
+npmjs.org
+registry.npmjs.org
+pypi.org
+files.pythonhosted.org
+nuget.org
+registry.nuget.org
+docker.com
+docker.io
+registry-1.docker.io
+quay.io
+ghcr.io
+
+# =========================
+# TIME / NTP / CERTS
+# =========================
+pool.ntp.org
+time.google.com
+time.windows.com
+letsencrypt.org
+acme-v02.api.letsencrypt.org
+
+# =========================
+# DNS / RESOLUTION
+# =========================
+one.one.one.one
+dns.google
+resolver.cloudflare.com
+
+# =========================
+# STREAMING CORE (NO ADS)
+# =========================
+netflix.com
+spotify.com
+youtube.com
+ytimg.com
+
+# =========================
+# OPERATING SYSTEM UPDATES
+# =========================
+security.ubuntu.com
+archive.ubuntu.com
+deb.debian.org
+mirror.centos.org
+dl.fedoraproject.org
+packages.microsoft.com
+
+# =====================================================
+# END OF WHITELIST
+# =====================================================

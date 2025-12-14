@@ -18,8 +18,8 @@ spec:
       containers:
       - name: unbound
         image: alpinelinux/unbound:latest
-        command: ["unbound"]
-        args: ["-d", "-c", "/etc/unbound/unbound.conf"]
+        #command: ["unbound"]
+        #args: ["-d", "-c", "/etc/unbound/unbound.conf"]
         ports:
           - containerPort: 5335
             protocol: UDP

@@ -8,7 +8,11 @@ spec:
   selector:
     app: unbound
   ports:
-    - name: dns
+    - name: dns-udp
       port: 5335
       targetPort: 5335
       protocol: UDP
+    - name: dns-tcp
+      port: 5335
+      targetPort: 5335
+      protocol: TCP

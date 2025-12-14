@@ -18,15 +18,13 @@ spec:
       containers:
       - name: unbound
         image: klutchell/unbound:latest
-        command:
-          - unbound
-        args:
-          - "-d"
-          - "-c"
-          - "/etc/unbound/unbound.conf"
+        command: ["unbound"]
+        args: ["-d", "-c", "/etc/unbound/unbound.conf"]
         ports:
           - containerPort: 5335
             protocol: UDP
+          - containerPort: 5335
+            protocol: TCP
         volumeMounts:
           - name: config
             mountPath: /etc/unbound

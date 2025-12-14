@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: unbound-config
+  namespace: pihole
+data:
+  unbound.conf: |
+    (contenido del archivo)
+  root.hints: |
+    (contenido de root.hints)

@@ -12,6 +12,9 @@ spec:
     metadata:
       labels:
         app: unbound
+      annotations:
+        traffic.sidecar.istio.io/excludeInboundPorts: "5335"
+        traffic.sidecar.istio.io/excludeOutboundPorts: "53,5335"
     spec:
       containers:
       - name: unbound

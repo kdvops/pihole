@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: unbound
-        image: klutchell/unbound:latest
+        image: alpinelinux/unbound:latest
         command: ["unbound"]
         args: ["-d", "-c", "/etc/unbound/unbound.conf"]
         ports:

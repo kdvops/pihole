@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: unbound
-        image: mvance/unbound:latest
+        image: klutchell/unbound:latest
         ports:
         - containerPort: 5335
           protocol: UDP

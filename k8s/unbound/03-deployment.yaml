@@ -22,6 +22,15 @@ spec:
         volumeMounts:
         - name: config
           mountPath: /etc/unbound
+        readinessProbe:
+          exec:
+            command:
+            - sh
+            - -c
+            - dig @unbound.pihole.svc.cluster.local google.com +short
+          initialDelaySeconds: 10
+          periodSeconds: 10
+
       volumes:
       - name: config
         configMap:

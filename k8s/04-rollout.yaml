@@ -22,6 +22,8 @@ spec:
         - name: pihole
           image: pihole/pihole:latest
           imagePullPolicy: Always
+          securityContext:
+            allowPrivilegeEscalation: true
           env:
             - name: TZ
               value: "America/Santo_Domingo"

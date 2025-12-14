@@ -15,6 +15,10 @@ spec:
     metadata:
       labels:
         app: pihole
+      annotations:
+        traffic.sidecar.istio.io/excludeInboundPorts: "53,80"
+        traffic.sidecar.istio.io/excludeOutboundPorts: "53"
+
     spec:
       nodeSelector:
         kubernetes.io/hostname: rasppi516   # <==== AQUI LO FORZAMOS

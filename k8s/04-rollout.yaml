@@ -37,18 +37,18 @@ spec:
               mountPath: /etc/pihole
             - name: pihole-dnsmasq
               mountPath: /etc/dnsmasq.d
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 80
-            initialDelaySeconds: 15
-            periodSeconds: 10
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 80
-            initialDelaySeconds: 30
-            periodSeconds: 30
+          #readinessProbe:
+          #  httpGet:
+          #    path: /
+          #    port: 80
+          #  initialDelaySeconds: 15
+          #  periodSeconds: 10
+          #livenessProbe:
+          #  httpGet:
+          #    path: /
+          #    port: 80
+          #  initialDelaySeconds: 30
+          #  periodSeconds: 30
 
       volumes:
         - name: pihole-data

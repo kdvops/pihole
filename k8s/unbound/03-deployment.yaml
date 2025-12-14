@@ -13,8 +13,7 @@ spec:
       labels:
         app: unbound
       annotations:
-        traffic.sidecar.istio.io/excludeInboundPorts: "5335"
-        traffic.sidecar.istio.io/excludeOutboundPorts: "53,5335"
+        sidecar.istio.io/inject: "false"
     spec:
       containers:
       - name: unbound

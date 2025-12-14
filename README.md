@@ -32,3 +32,4 @@ unbound.pihole.svc.cluster.local#5335
 
 ##probar consulta DNS
 kubectl exec -n pihole -it <pihole-pod> -- dig google.com
+

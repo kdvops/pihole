@@ -16,8 +16,8 @@ spec:
       labels:
         app: pihole
       annotations:
-        traffic.sidecar.istio.io/excludeInboundPorts: "53,80"
-        traffic.sidecar.istio.io/excludeOutboundPorts: "53"
+        traffic.sidecar.istio.io/excludeInboundPorts: "53,80,5335"
+        traffic.sidecar.istio.io/excludeOutboundPorts: "53,5335"
 
     spec:
       nodeSelector:

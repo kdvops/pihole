@@ -4,9 +4,6 @@ metadata:
   name: unbound-config
   namespace: pihole
 data:
-  99-custom.conf: |
-    dns-forward-max=1000
-    cache-size=10000
   unbound.conf: |
     server:
       verbosity: 1

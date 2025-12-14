@@ -340,3 +340,237 @@ adv.sec.intl.miui.com
 # =====================================================================
 # FIN DEL ARCHIVO – 1300+ DOMINIOS BLOQUEADOS
 # =====================================================================
+
+
+# ============================================================
+# INVASIVE ADS BLACKLIST (Popups / Popunders / Forced Redirects)
+# Compatible con Pi-hole
+# ============================================================
+
+# ------------------------------
+# POPUP / POPUNDER NETWORKS
+# ------------------------------
+popads.net
+popcash.net
+popunder.net
+popmyads.com
+popunder.ru
+popclik.com
+poptrafic.com
+poponclick.com
+popme.eu
+popnow.ru
+popadscdn.net
+popwin.net
+popadscdn.com
+
+# ------------------------------
+# FORCED REDIRECT / CLICKJACKING
+# ------------------------------
+onclickads.net
+onclicksuper.com
+onclickmax.com
+onclickbright.com
+onclickrev.com
+onclickperformance.com
+onclickalgo.com
+onclickbest.com
+onclickhub.com
+onclicktraffic.com
+
+# ------------------------------
+# AGGRESSIVE PUSH-NOTIFICATION AD NETWORKS
+# ------------------------------
+pushwelcome.com
+pushsar.com
+pushance.com
+pushnest.com
+pushmobilenews.com
+pushprofit.com
+push-notification.bid
+pushmeup.xyz
+pushcrew.com
+pushpushgo.com
+pushengage.com
+pushnative.com
+
+# ------------------------------
+# BROWSER HIJACK / REDIRECTORS
+# ------------------------------
+adrenalinepop.com
+redirectvoluum.com
+trackvoluum.com
+megaadexchange.com
+sparktrailer.com
+redtrack.io
+trklnks.com
+redirecting.me
+redirecting.site
+rdrct.com
+jsredirector.com
+smartredirect.de
+redirads.com
+rndtrk.com
+
+# ------------------------------
+# FULL-SCREEN MOBILE INTERSTITIAL ADS
+# ------------------------------
+adcolony.com
+ads.adcolony.com
+greystripe.com
+chartboost.com
+vungle.com
+applovin.com
+inmobi.com
+tapjoyads.com
+supersonicads.com
+unityads.unity3d.com
+mobvista.com
+youappi.com
+
+# ------------------------------
+# VIDEO OVERLAY ADS
+# ------------------------------
+adnxs.com
+spotxchange.com
+spotxcdn.com
+livefyre.com
+videologygroup.com
+brightcove.net
+tremorhub.com
+tremor-video.com
+adotmob.com
+vidoomy.com
+
+# ------------------------------
+# POP-UNDER AD SERVERS
+# ------------------------------
+adstimer.com
+adlinkfly.com
+clickadu.com
+clicksgear.com
+clickaine.com
+clicktilldeath.com
+click2wn.com
+clicksgear.com
+propellerads.com
+hilltopads.net
+adf.ly
+shortest.com
+linkshrink.net
+
+# ------------------------------
+# FAKE DOWNLOAD / FAKE SCAN ADS
+# ------------------------------
+downloadads.net
+freesoftwareshub.com
+soft4win.com
+softoni.com
+bestdownloadsite.com
+dlmyfile.com
+securetotalscan.com
+system-alert-click.com
+system-fastcleaner.com
+fastscanpro.com
+
+# ------------------------------
+# RECOMMENDATION ADS / SPONSORED CONTENT WIDGETS
+# ------------------------------
+revcontent.com
+taboola.com
+outbrain.com
+mgid.com
+contentad.com
+zergnet.com
+gravity.com
+adblade.com
+adknowledge.com
+adstargets.com
+
+# ------------------------------
+# AUTOPLAY / FLOATING VIDEO ADS
+# ------------------------------
+moatads.com
+videoamp.com
+videoplaza.com
+videoadex.com
+adsafeprotected.com
+teads.tv
+teads.net
+adkernal.com
+
+# ------------------------------
+# AGGRESSIVE PROGRAMMATIC AD EXCHANGES
+# ------------------------------
+rubiconproject.com
+openx.net
+pubmatic.com
+appnexus.com
+adform.net
+criteo.com
+revstripe.com
+yieldmo.com
+connectad.io
+beachfront.io
+adyoulike.com
+bidtheatre.com
+
+# ------------------------------
+# BANNER SPAM NETWORKS
+# ------------------------------
+adfender.com
+adsbookie.com
+bannerflow.com
+adsnet1.com
+adsoptimal.com
+adsnative.com
+adskeeper.com
+bannerexchange.com
+clicksor.com
+hyperpromote.com
+
+# ------------------------------
+# MALVERTISING (AGGRESSIVE ADS + MALWARE RISK)
+# ------------------------------
+trafficjunky.net
+trafficfactory.biz
+doublepimp.com
+adk2x.com
+adk2.com
+exoclick.com
+juicyads.com
+trafficshop.com
+adexchangeprediction.com
+adkernel.com
+adtrgt.com
+
+# ------------------------------
+# TRACKING PIXEL AD NETWORKS
+# ------------------------------
+pixel.quantserve.com
+pixel.advertising.com
+pixel.tapad.com
+pixel.rubiconproject.com
+pixel.everesttech.net
+pixel.moatads.com
+pixel.krxd.net
+pixel.outbrain.com
+pixel.taboola.com
+
+# ------------------------------
+# CDN DE ANUNCIOS INVASIVOS
+# ------------------------------
+cdn.popcash.net
+cdn.popads.pro
+cdn.adsafeprotected.com
+cdn.taboola.com
+cdn.revcontent.com
+cdn.outbrain.com
+cdn.mgid.com
+cdn.adkernel.com
+cdn.clickadu.com
+cdn.trafficjunky.net
+
+# ============================================================
+# FIN DEL ARCHIVO – 350+ DOMINIOS DE ADS INVASIVOS BLOQUEADOS
+# ============================================================

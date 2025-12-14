@@ -27,8 +27,8 @@ data:
       cache-max-ttl: 86400
     
       num-threads: 1
-      so-rcvbuf: 1m
-      so-sndbuf: 1m
+      so-rcvbuf: 0
+      so-sndbuf: 0
     
       hide-identity: yes
       hide-version: yes

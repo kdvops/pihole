@@ -26,7 +26,8 @@ spec:
             allowPrivilegeEscalation: true
             capabilities:
               add:
-                - NET_ADMIN            
+                - NET_ADMIN
+                - SYS_TIME
           env:
             - name: TZ
               value: "America/Santo_Domingo"

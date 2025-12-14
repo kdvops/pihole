@@ -24,6 +24,9 @@ spec:
           imagePullPolicy: Always
           securityContext:
             allowPrivilegeEscalation: true
+            capabilities:
+              add:
+                - NET_ADMIN            
           env:
             - name: TZ
               value: "America/Santo_Domingo"

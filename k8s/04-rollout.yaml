@@ -27,6 +27,10 @@ spec:
               value: "America/Santo_Domingo"
             - name: WEBPASSWORD
               value: "ChangeMe123"
+            - name: DNS1
+              value: 8.8.8.8
+            - name: DNS2
+              value: 4.4.4.4
           ports:
             - containerPort: 53
               protocol: UDP

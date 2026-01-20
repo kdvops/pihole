@@ -6,7 +6,7 @@ metadata:
 spec:
   #externalIPs:
   #  - 10.0.0.16
-  loadBalancerIP: 10.0.0.104
+  #loadBalancerIP: 10.0.0.104
   type: LoadBalancer
   selector:
     app: pihole
@@ -24,7 +24,7 @@ metadata:
   name: pihole-preview
   namespace: pihole
 spec:
-  loadBalancerIP: 10.0.0.103
+  #loadBalancerIP: 10.0.0.103
   type: LoadBalancer
   selector:
     app: pihole

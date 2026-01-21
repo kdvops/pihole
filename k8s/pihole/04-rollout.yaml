@@ -35,12 +35,16 @@ spec:
           env:
             - name: TZ
               value: "America/Santo_Domingo"
-            - name: WEBPASSWORD
-              value: "ChangeMe123"
             - name: DNS1
               value: 8.8.8.8
             - name: DNS2
               value: 4.4.4.4
+            - name: WEBPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: pihole-secret
+                  key: WEBPASSWORD
+          
           ports:
             - containerPort: 53
               protocol: UDP

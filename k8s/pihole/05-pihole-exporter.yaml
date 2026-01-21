@@ -20,7 +20,7 @@ spec:
             - containerPort: 9617
           env:
             - name: PIHOLE_HOSTNAME
-              value: "http://pihole.pihole.svc.cluster.local"
+              value: "http://pihole-active.pihole.svc.cluster.local"
             - name: PIHOLE_API_TOKEN
               valueFrom:
                 secretKeyRef:

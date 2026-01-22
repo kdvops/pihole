@@ -5,4 +5,17 @@ metadata:
   namespace: pihole
 spec:
   mtls:
-    mode: PERMISSIVE
+    mode: STRICT # PERMISSIVE | STRICT | DISABLE 
+
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: pihole
+  namespace: pihole
+spec:
+  host: pihole-active
+  trafficPolicy:
+    tls:
+      mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE

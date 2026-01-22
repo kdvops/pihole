@@ -39,11 +39,13 @@ spec:
               value: 8.8.8.8
             - name: DNS2
               value: 4.4.4.4
-            - name: WEBPASSWORD
+            - name: FTLCONF_webserver_api_password
+            #  value: ""
               valueFrom:
                 secretKeyRef:
                   name: pihole-secret
                   key: WEBPASSWORD
+
           
           ports:
             - containerPort: 53

@@ -17,7 +17,7 @@ spec:
   host: pihole-active.pihole.svc.cluster.local
   trafficPolicy:
     tls:
-      mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
+      mode: DISABLE     # DISABLE |  ISTIO_MUTUAL | SIMPLE
 
 
 ---
@@ -30,7 +30,7 @@ spec:
   host: pihole-preview.pihole.svc.cluster.local
   trafficPolicy:
     tls:
-      mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
+      mode: DISABLE     # DISABLE |  ISTIO_MUTUAL | SIMPLE
 
 
 ---
@@ -43,5 +43,5 @@ spec:
   host: unbound.pihole.svc.cluster.local
   trafficPolicy:
     tls:
-      mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
+      mode: DISABLE     # DISABLE |  ISTIO_MUTUAL | SIMPLE
 

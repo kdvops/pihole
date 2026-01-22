@@ -32,3 +32,16 @@ spec:
     tls:
       mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
 
+
+---
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: unbound
+  namespace: pihole
+spec:
+  host: unbound
+  trafficPolicy:
+    tls:
+      mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
+

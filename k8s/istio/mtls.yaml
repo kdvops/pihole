@@ -14,7 +14,7 @@ metadata:
   name: pihole-active
   namespace: pihole
 spec:
-  host: pihole-active
+  host: pihole-active.pihole.svc.cluster.local
   trafficPolicy:
     tls:
       mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
@@ -27,7 +27,7 @@ metadata:
   name: pihole-preview
   namespace: pihole
 spec:
-  host: pihole-preview
+  host: pihole-preview.pihole.svc.cluster.local
   trafficPolicy:
     tls:
       mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
@@ -40,7 +40,7 @@ metadata:
   name: unbound
   namespace: pihole
 spec:
-  host: unbound
+  host: unbound.pihole.svc.cluster.local
   trafficPolicy:
     tls:
       mode: ISTIO_MUTUAL     # DISABLE |  ISTIO_MUTUAL | SIMPLE
